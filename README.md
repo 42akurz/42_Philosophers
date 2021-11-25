@@ -19,6 +19,22 @@ number_of_philosophers   time_to_die time_to_eat   time_to_sleep   [number_of_ti
 4. time_to_sleep: is in milliseconds and is the time the philosopher will spend sleeping.  
 5. number_of_times_each_philosopher_must_eat: argument is optional, if all philosophers eat at least ’number_of_times_each_philosopher_must_eat’ the simulation will stop. If not specified, the simulation will stop only at the death of a philosopher.  
 
+## Allowed functions
+* memset
+* printf
+* malloc
+* free
+* write
+* usleep
+* gettimeofday
+* pthread_create
+* pthread_detach
+* pthread_join
+* pthread_mutex_init
+* pthread_mutex_destroy
+* pthread_mutex_lock
+* pthread_mutex_unlock
+
 ## How to use
 
 Clone the repository:
